@@ -11,4 +11,4 @@ To run this bot, you will need:
 After cloning the repository or downloading FkPyramids.py, you need to enter your Twitch username in the Nick field, and your TMI key into the Pass field. To get your TMI key, [here](http://twitchapps.com/tmi)) and connect with your Twitch account. Twitch IRC uses this key instead of the regular password for extra security. Optionally, you can replace "Channel = input("Channel: ")" to be a static selection, and have it automatically enter a specific channel everytime, for ease & convenience.
 
 ## Running
-After setup, run FkPyramids.py with the command `<addr> python3 FkPyramids.py` or through your own python IDE.
+After setup, run FkPyramids.py with the command `python3 FkPyramids.py` or through your own python IDE.
