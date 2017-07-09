@@ -32,6 +32,8 @@ while True:
 while True:
     for line in str(s.recv(1024)).split('\\r\\n'):
         parts = line.split(':')
+        if line.startswith('PING'):
+            s.send("PONG " + line.split()[1] + "\n")
         if len(parts) > 2:
             message = ':'.join(parts[2:])
             username = parts[1].split("!")[0]
