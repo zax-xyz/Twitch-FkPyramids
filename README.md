@@ -10,4 +10,4 @@ This script uses socket to connect to Twitch's chat IRC server, detects when som
 Enter your Twitch username in the Nick field, and your TMI key into the Pass field. To get your TMI key, [here](http://twitchapps.com/tmi)) and connect with your Twitch account. Optionally, you can replace "Channel = input("Channel: ")" to be a static selection.
 
 ## Running
-`python3 FkPyramids.py` or run through a python IDE.
+`python3 FkPyramids.py`
