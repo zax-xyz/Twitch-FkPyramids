@@ -7,7 +7,10 @@ This script uses socket to connect to Twitch's chat IRC server, detects when som
 * Python 3.5.x
 
 ## Setup
-Enter your Twitch username in the Nick field, and your TMI key into the Pass field. To get your TMI key, [here](http://twitchapps.com/tmi)) and connect with your Twitch account. Optionally, you can replace "Channel = input("Channel: ")" to be a static selection.
+* On line 9, enter your Twitch username between the quotation marks
+* On line 10, enter your Twitch TMI oauth key between the quotation marks (([twitchapps.com/tmi](http://twitchapps.com/tmi))
+* On line 11, enter the Twitch channel you want to enter chat in between the quotation marks
+* On line 76, change "fkpyramids" to your Twitch bot's username (the same as what you put in line 9)
 
 ## Running
 `python3 FkPyramids.py`
