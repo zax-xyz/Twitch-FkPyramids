@@ -59,7 +59,7 @@ def send_message(msg):
 def block():
     global length
     global py_part
-    if username != "zaxutic" and username != "fkpyramids":
+    if username != "fkpyramids":  # Put the username of the bot here
         if len(m_parts) == 1:
             py_part = message
             length = 1
@@ -84,7 +84,7 @@ def zax_commands():
     global global_com
     global py_blocking
     global Channel
-    if username == 'zaxutic':
+    if username == 'zaxutic':  # Put your own username here
         if m_parts[0] == "!pyramid":
             if len(m_parts) >= 3 and m_parts[1].isdigit():
                 p_len = int(m_parts[1]) + 1
