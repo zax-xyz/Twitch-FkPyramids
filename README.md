@@ -9,6 +9,7 @@ This also commands with a command to automate its own pyramid within a fraction 
 * Python 3.6+
 
 ## Setup
+* Create a second account on [Twitch](https://twitch.tv) for the bot to be run on, or use it on your own account (I'm assuming you already have your own primary account)
 * On line 11, replace `zaxu__` with your own Twitch username (keep it enclosed within the quotes), i.e. `'username'`
 * Get an OAuth token from https://twitchapps.com/tmi/ using the bot's account.
 * Create an `auth` file in the same directory with the bot's username and its OAuth token, separated by a space
