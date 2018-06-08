@@ -7,6 +7,7 @@ This also commands with a command to automate its own pyramid within a fraction 
 
 ## Requirements
 * Python 3.6+
+* `termcolor` library
 
 ## Setup
 * Create a second account on [Twitch](https://twitch.tv) for the bot to be run on, or use it on your own account (I'm assuming you already have your own primary account)
