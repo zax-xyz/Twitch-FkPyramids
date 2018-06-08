@@ -1,7 +1,9 @@
 # FkPyramids
 Twitch bot coded in Python to automatically block pyramids after the third message
 
-This script uses socket to connect to Twitch's chat IRC server, detects when someone is attempting a pyramid, and blocks it after the third stage.
+This script uses socket to connect to Twitch's chat IRC server, detects when someone is attempting a pyramid, and blocks it after the third message (or calls them out for doing a 2-tier pyramid which only lasts 3 messages).
+
+This also commands with a command to automate its own pyramid within a fraction of a second which is nearly impossible to stop, along with other useless commands/functionality.
 
 ## Requirements
 * Python 3.6+
@@ -14,10 +16,11 @@ This script uses socket to connect to Twitch's chat IRC server, detects when som
 ## Running
 ### Windows
 ```
-$ python FkPyramids.py
+$ python FkPyramids.py [channel]
 ```
 
 #### Linux/ Mac OS X
 ```
-$ python3 FkPyramids.py
+$ python3 FkPyramids.py [channel]
 ```
+Replace `[channel]` with the channel in which you wish the bot to be entered.
