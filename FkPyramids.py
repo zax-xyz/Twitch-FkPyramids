@@ -14,7 +14,11 @@ with open("auth", "r", encoding='utf-8') as auth_file:
     Nick = line[0]
     Pass = line[1]
 
-Channel = sys.argv[1]
+try:
+    Channel = sys.argv[1]
+except IndexError:
+    Channel = input("Channel: ")
+
 cooldown = 0
 
 def current_time():
